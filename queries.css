@@ -1,0 +1,44 @@
+@media (max-width: 44em) {
+  body {
+    padding: 7rem;
+  }
+
+  .container {
+    padding-bottom: 10rem;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .main-img {
+    height: 40rem;
+    object-fit: cover;
+  }
+
+  .btn-box {
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 27em) {
+  body {
+    padding: 20rem;
+  }
+
+  .primary-heading {
+    margin-bottom: -1.5rem;
+  }
+
+  .secondary-heading {
+    margin-bottom: -1.5rem;
+  }
+
+  .btn {
+    margin-bottom: -1.5rem;
+  }
+
+  .main-img {
+    height: 25rem;
+  }
+}
